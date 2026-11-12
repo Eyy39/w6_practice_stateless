@@ -26,7 +26,7 @@ void main() {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                child: Text("Products"),
+                child: Text("Products", style: TextStyle(fontSize: 20),),
                 padding: EdgeInsets.all(10),
               ),
               Expanded(
@@ -72,7 +72,7 @@ class ProductCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(products.image, width: 100, height: 100,),
-            Text(products.title, style: TextStyle(fontSize: 20, fontWeight: FontWeight(600)),),
+            Text(products.title, style: TextStyle(fontSize: 30, fontWeight: FontWeight(500)),),
             Text(products.description),
           ],
         ),

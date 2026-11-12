@@ -4,7 +4,7 @@ import 'ex3_products.dart' as ex3;
 import 'ex4_weather.dart' as ex4;
 
 // Which exercise to show: change the number, then press R (hot restart).
-const exercise = 3;
+const exercise = 4;
 
 void main() {
   switch (exercise) {
